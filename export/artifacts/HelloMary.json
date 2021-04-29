@@ -1,0 +1,66 @@
+{
+  "contractName": "HelloMary",
+  "sourceName": "contracts/HelloMary.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "world",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x6080604052348015600f57600080fd5b5060808061001e6000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c806330b67baa14602d575b600080fd5b60336045565b60408051918252519081900360200190f35b60019056fea26469706673582212203e1be3cb8f89fee85ee03d57a2ed7ac668d9f4f47372e1006b5a1e943a04a53b64736f6c63430007040033",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c806330b67baa14602d575b600080fd5b60336045565b60408051918252519081900360200190f35b60019056fea26469706673582212203e1be3cb8f89fee85ee03d57a2ed7ac668d9f4f47372e1006b5a1e943a04a53b64736f6c63430007040033",
+  "linkReferences": {},
+  "deployedLinkReferences": {},
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "evm": {
+    "bytecode": {
+      "generatedSources": [],
+      "linkReferences": {},
+      "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x80 DUP1 PUSH2 0x1E PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x4 CALLDATASIZE LT PUSH1 0x28 JUMPI PUSH1 0x0 CALLDATALOAD PUSH1 0xE0 SHR DUP1 PUSH4 0x30B67BAA EQ PUSH1 0x2D JUMPI JUMPDEST PUSH1 0x0 DUP1 REVERT JUMPDEST PUSH1 0x33 PUSH1 0x45 JUMP JUMPDEST PUSH1 0x40 DUP1 MLOAD SWAP2 DUP3 MSTORE MLOAD SWAP1 DUP2 SWAP1 SUB PUSH1 0x20 ADD SWAP1 RETURN JUMPDEST PUSH1 0x1 SWAP1 JUMP INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 RETURNDATACOPY SHL 0xE3 0xCB DUP16 DUP10 INVALID 0xE8 0x5E 0xE0 RETURNDATASIZE JUMPI LOG2 0xED PUSH27 0xC668D9F4F47372E1006B5A1E943A04A53B64736F6C634300070400 CALLER ",
+      "sourceMap": "80:119:1:-:0;;;;;;;;;;;;;;;;;;;"
+    },
+    "deployedBytecode": {
+      "generatedSources": [],
+      "immutableReferences": {},
+      "linkReferences": {},
+      "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x4 CALLDATASIZE LT PUSH1 0x28 JUMPI PUSH1 0x0 CALLDATALOAD PUSH1 0xE0 SHR DUP1 PUSH4 0x30B67BAA EQ PUSH1 0x2D JUMPI JUMPDEST PUSH1 0x0 DUP1 REVERT JUMPDEST PUSH1 0x33 PUSH1 0x45 JUMP JUMPDEST PUSH1 0x40 DUP1 MLOAD SWAP2 DUP3 MSTORE MLOAD SWAP1 DUP2 SWAP1 SUB PUSH1 0x20 ADD SWAP1 RETURN JUMPDEST PUSH1 0x1 SWAP1 JUMP INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 RETURNDATACOPY SHL 0xE3 0xCB DUP16 DUP10 INVALID 0xE8 0x5E 0xE0 RETURNDATASIZE JUMPI LOG2 0xED PUSH27 0xC668D9F4F47372E1006B5A1E943A04A53B64736F6C634300070400 CALLER ",
+      "sourceMap": "80:119:1:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;114:83;;;:::i;:::-;;;;;;;;;;;;;;;;;189:1;114:83;:::o"
+    },
+    "gasEstimates": {
+      "creation": {
+        "codeDepositCost": "25600",
+        "executionCost": "75",
+        "totalCost": "25675"
+      },
+      "external": {
+        "world()": "176"
+      }
+    },
+    "methodIdentifiers": {
+      "world()": "30b67baa"
+    }
+  },
+  "metadata": "{\"compiler\":{\"version\":\"0.7.4+commit.3f05b770\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"world\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"pure\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/HelloMary.sol\":\"HelloMary\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\",\"useLiteralContent\":true},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"contracts/Hello.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\npragma solidity ^0.7.0;\\n\\ninterface Hello {\\n    function world() external view returns (uint256);\\n}\\n\",\"keccak256\":\"0x8fc4414960a8c14bd612bdbb8bdc8ef09f23bdab8fe57ba43eee347ce9aa954a\",\"license\":\"MIT\"},\"contracts/HelloMary.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\npragma solidity ^0.7.0;\\n\\nimport \\\"./Hello.sol\\\";\\n\\ncontract HelloMary is Hello {\\n    function world() external pure override returns (uint256) {\\n        return 1;\\n    }\\n}\\n\",\"keccak256\":\"0xdbe1c0fadae33d07d74279293b930434dac56191efeb68bce34d962fbd120b99\",\"license\":\"MIT\"}},\"version\":1}",
+  "storageLayout": {
+    "storage": [],
+    "types": null
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
