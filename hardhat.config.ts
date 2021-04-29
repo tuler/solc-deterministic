@@ -31,7 +31,7 @@ const config: HardhatUserConfig = {
     goerli: infuraNetwork("goerli", 5, 6283185),
   },
   solidity: {
-    version: "0.7.4",
+    version: "0.8.4",
     settings: {
       optimizer: {
         enabled: true,

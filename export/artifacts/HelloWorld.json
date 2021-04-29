@@ -16,8 +16,8 @@
       "type": "function"
     }
   ],
-  "bytecode": "0x6080604052348015600f57600080fd5b5060808061001e6000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c806330b67baa14602d575b600080fd5b60336045565b60408051918252519081900360200190f35b60009056fea26469706673582212208c12e8ecdce578faa08b99fc9729408c90218e5cdc83db4142437ab4767ae46964736f6c63430007040033",
-  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c806330b67baa14602d575b600080fd5b60336045565b60408051918252519081900360200190f35b60009056fea26469706673582212208c12e8ecdce578faa08b99fc9729408c90218e5cdc83db4142437ab4767ae46964736f6c63430007040033",
+  "bytecode": "0x6080604052348015600f57600080fd5b50607780601d6000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c806330b67baa14602d575b600080fd5b600060405190815260200160405180910390f3fea264697066735822122044b1be8f91d3f6c75a4ae45d083e093acf76c45e3132a7026338770443d1985d64736f6c63430008040033",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c806330b67baa14602d575b600080fd5b600060405190815260200160405180910390f3fea264697066735822122044b1be8f91d3f6c75a4ae45d083e093acf76c45e3132a7026338770443d1985d64736f6c63430008040033",
   "linkReferences": {},
   "deployedLinkReferences": {},
   "devdoc": {
@@ -29,31 +29,141 @@
     "bytecode": {
       "generatedSources": [],
       "linkReferences": {},
-      "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x80 DUP1 PUSH2 0x1E PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x4 CALLDATASIZE LT PUSH1 0x28 JUMPI PUSH1 0x0 CALLDATALOAD PUSH1 0xE0 SHR DUP1 PUSH4 0x30B67BAA EQ PUSH1 0x2D JUMPI JUMPDEST PUSH1 0x0 DUP1 REVERT JUMPDEST PUSH1 0x33 PUSH1 0x45 JUMP JUMPDEST PUSH1 0x40 DUP1 MLOAD SWAP2 DUP3 MSTORE MLOAD SWAP1 DUP2 SWAP1 SUB PUSH1 0x20 ADD SWAP1 RETURN JUMPDEST PUSH1 0x0 SWAP1 JUMP INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 DUP13 SLT 0xE8 0xEC 0xDC 0xE5 PUSH25 0xFAA08B99FC9729408C90218E5CDC83DB4142437AB4767AE469 PUSH5 0x736F6C6343 STOP SMOD DIV STOP CALLER ",
+      "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x77 DUP1 PUSH1 0x1D PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x4 CALLDATASIZE LT PUSH1 0x28 JUMPI PUSH1 0x0 CALLDATALOAD PUSH1 0xE0 SHR DUP1 PUSH4 0x30B67BAA EQ PUSH1 0x2D JUMPI JUMPDEST PUSH1 0x0 DUP1 REVERT JUMPDEST PUSH1 0x0 PUSH1 0x40 MLOAD SWAP1 DUP2 MSTORE PUSH1 0x20 ADD PUSH1 0x40 MLOAD DUP1 SWAP2 SUB SWAP1 RETURN INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 DIFFICULTY 0xB1 0xBE DUP16 SWAP2 0xD3 0xF6 0xC7 GAS 0x4A 0xE4 0x5D ADDMOD RETURNDATACOPY MULMOD GASPRICE 0xCF PUSH23 0xC45E3132A7026338770443D1985D64736F6C6343000804 STOP CALLER ",
       "sourceMap": "80:120:1:-:0;;;;;;;;;;;;;;;;;;;"
     },
     "deployedBytecode": {
-      "generatedSources": [],
+      "generatedSources": [
+        {
+          "ast": {
+            "nodeType": "YulBlock",
+            "src": "0:193:2",
+            "statements": [
+              {
+                "nodeType": "YulBlock",
+                "src": "6:3:2",
+                "statements": []
+              },
+              {
+                "body": {
+                  "nodeType": "YulBlock",
+                  "src": "115:76:2",
+                  "statements": [
+                    {
+                      "nodeType": "YulAssignment",
+                      "src": "125:26:2",
+                      "value": {
+                        "arguments": [
+                          {
+                            "name": "headStart",
+                            "nodeType": "YulIdentifier",
+                            "src": "137:9:2"
+                          },
+                          {
+                            "kind": "number",
+                            "nodeType": "YulLiteral",
+                            "src": "148:2:2",
+                            "type": "",
+                            "value": "32"
+                          }
+                        ],
+                        "functionName": {
+                          "name": "add",
+                          "nodeType": "YulIdentifier",
+                          "src": "133:3:2"
+                        },
+                        "nodeType": "YulFunctionCall",
+                        "src": "133:18:2"
+                      },
+                      "variableNames": [
+                        {
+                          "name": "tail",
+                          "nodeType": "YulIdentifier",
+                          "src": "125:4:2"
+                        }
+                      ]
+                    },
+                    {
+                      "expression": {
+                        "arguments": [
+                          {
+                            "name": "headStart",
+                            "nodeType": "YulIdentifier",
+                            "src": "167:9:2"
+                          },
+                          {
+                            "name": "value0",
+                            "nodeType": "YulIdentifier",
+                            "src": "178:6:2"
+                          }
+                        ],
+                        "functionName": {
+                          "name": "mstore",
+                          "nodeType": "YulIdentifier",
+                          "src": "160:6:2"
+                        },
+                        "nodeType": "YulFunctionCall",
+                        "src": "160:25:2"
+                      },
+                      "nodeType": "YulExpressionStatement",
+                      "src": "160:25:2"
+                    }
+                  ]
+                },
+                "name": "abi_encode_tuple_t_uint256__to_t_uint256__fromStack_reversed",
+                "nodeType": "YulFunctionDefinition",
+                "parameters": [
+                  {
+                    "name": "headStart",
+                    "nodeType": "YulTypedName",
+                    "src": "84:9:2",
+                    "type": ""
+                  },
+                  {
+                    "name": "value0",
+                    "nodeType": "YulTypedName",
+                    "src": "95:6:2",
+                    "type": ""
+                  }
+                ],
+                "returnVariables": [
+                  {
+                    "name": "tail",
+                    "nodeType": "YulTypedName",
+                    "src": "106:4:2",
+                    "type": ""
+                  }
+                ],
+                "src": "14:177:2"
+              }
+            ]
+          },
+          "contents": "{\n    { }\n    function abi_encode_tuple_t_uint256__to_t_uint256__fromStack_reversed(headStart, value0) -> tail\n    {\n        tail := add(headStart, 32)\n        mstore(headStart, value0)\n    }\n}",
+          "id": 2,
+          "language": "Yul",
+          "name": "#utility.yul"
+        }
+      ],
       "immutableReferences": {},
       "linkReferences": {},
-      "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x4 CALLDATASIZE LT PUSH1 0x28 JUMPI PUSH1 0x0 CALLDATALOAD PUSH1 0xE0 SHR DUP1 PUSH4 0x30B67BAA EQ PUSH1 0x2D JUMPI JUMPDEST PUSH1 0x0 DUP1 REVERT JUMPDEST PUSH1 0x33 PUSH1 0x45 JUMP JUMPDEST PUSH1 0x40 DUP1 MLOAD SWAP2 DUP3 MSTORE MLOAD SWAP1 DUP2 SWAP1 SUB PUSH1 0x20 ADD SWAP1 RETURN JUMPDEST PUSH1 0x0 SWAP1 JUMP INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 DUP13 SLT 0xE8 0xEC 0xDC 0xE5 PUSH25 0xFAA08B99FC9729408C90218E5CDC83DB4142437AB4767AE469 PUSH5 0x736F6C6343 STOP SMOD DIV STOP CALLER ",
-      "sourceMap": "80:120:1:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;115:83;;;:::i;:::-;;;;;;;;;;;;;;;;;164:7;115:83;:::o"
+      "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x4 CALLDATASIZE LT PUSH1 0x28 JUMPI PUSH1 0x0 CALLDATALOAD PUSH1 0xE0 SHR DUP1 PUSH4 0x30B67BAA EQ PUSH1 0x2D JUMPI JUMPDEST PUSH1 0x0 DUP1 REVERT JUMPDEST PUSH1 0x0 PUSH1 0x40 MLOAD SWAP1 DUP2 MSTORE PUSH1 0x20 ADD PUSH1 0x40 MLOAD DUP1 SWAP2 SUB SWAP1 RETURN INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 DIFFICULTY 0xB1 0xBE DUP16 SWAP2 0xD3 0xF6 0xC7 GAS 0x4A 0xE4 0x5D ADDMOD RETURNDATACOPY MULMOD GASPRICE 0xCF PUSH23 0xC45E3132A7026338770443D1985D64736F6C6343000804 STOP CALLER ",
+      "sourceMap": "80:120:1:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;115:83;164:7;115:83;;160:25:2;;;148:2;133:18;115:83:1;;;;;;"
     },
     "gasEstimates": {
       "creation": {
-        "codeDepositCost": "25600",
+        "codeDepositCost": "23800",
         "executionCost": "75",
-        "totalCost": "25675"
+        "totalCost": "23875"
       },
       "external": {
-        "world()": "176"
+        "world()": "146"
       }
     },
     "methodIdentifiers": {
       "world()": "30b67baa"
     }
   },
-  "metadata": "{\"compiler\":{\"version\":\"0.7.4+commit.3f05b770\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"world\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"pure\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/HelloWorld.sol\":\"HelloWorld\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\",\"useLiteralContent\":true},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"contracts/Hello.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\npragma solidity ^0.7.0;\\n\\ninterface Hello {\\n    function world() external view returns (uint256);\\n}\\n\",\"keccak256\":\"0x8fc4414960a8c14bd612bdbb8bdc8ef09f23bdab8fe57ba43eee347ce9aa954a\",\"license\":\"MIT\"},\"contracts/HelloWorld.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\npragma solidity ^0.7.0;\\n\\nimport \\\"./Hello.sol\\\";\\n\\ncontract HelloWorld is Hello {\\n    function world() external pure override returns (uint256) {\\n        return 0;\\n    }\\n}\\n\",\"keccak256\":\"0x69f8787293777beabf3487ce9feb643ca790b8f6b0e2eb7d0539efca35bf872e\",\"license\":\"MIT\"}},\"version\":1}",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.4+commit.c7e474f2\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"world\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"pure\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/HelloWorld.sol\":\"HelloWorld\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\",\"useLiteralContent\":true},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"contracts/Hello.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\npragma solidity ^0.8.0;\\n\\ninterface Hello {\\n    function world() external view returns (uint256);\\n}\\n\",\"keccak256\":\"0x09d17649fac383c096bb7dc1bbe533cef381c132573be047658cdd378ea8c2b5\",\"license\":\"MIT\"},\"contracts/HelloWorld.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\npragma solidity ^0.8.0;\\n\\nimport \\\"./Hello.sol\\\";\\n\\ncontract HelloWorld is Hello {\\n    function world() external pure override returns (uint256) {\\n        return 0;\\n    }\\n}\\n\",\"keccak256\":\"0x269ce44fe270b3c6daa0b7ad130fc625f54d6a699e48284c46248ce3ee604411\",\"license\":\"MIT\"}},\"version\":1}",
   "storageLayout": {
     "storage": [],
     "types": null
