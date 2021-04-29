@@ -1,6 +1,6 @@
 {
-  "contractName": "HelloWorld",
-  "sourceName": "contracts/HelloWorld.sol",
+  "contractName": "HelloMary",
+  "sourceName": "contracts/HelloMary.sol",
   "abi": [
     {
       "inputs": [],
@@ -16,8 +16,8 @@
       "type": "function"
     }
   ],
-  "bytecode": "0x6080604052348015600f57600080fd5b50607780601d6000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c806330b67baa14602d575b600080fd5b600060405190815260200160405180910390f3fea264697066735822122044b1be8f91d3f6c75a4ae45d083e093acf76c45e3132a7026338770443d1985d64736f6c63430008040033",
-  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c806330b67baa14602d575b600080fd5b600060405190815260200160405180910390f3fea264697066735822122044b1be8f91d3f6c75a4ae45d083e093acf76c45e3132a7026338770443d1985d64736f6c63430008040033",
+  "bytecode": "0x6080604052348015600f57600080fd5b50607780601d6000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c806330b67baa14602d575b600080fd5b600160405190815260200160405180910390f3fea2646970667358221220a0ffb50a52b6833298cc54404480b997ba11237701e8659d6c2d440f259b28a364736f6c63430008040033",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c806330b67baa14602d575b600080fd5b600160405190815260200160405180910390f3fea2646970667358221220a0ffb50a52b6833298cc54404480b997ba11237701e8659d6c2d440f259b28a364736f6c63430008040033",
   "linkReferences": {},
   "deployedLinkReferences": {},
   "devdoc": {
@@ -29,8 +29,8 @@
     "bytecode": {
       "generatedSources": [],
       "linkReferences": {},
-      "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x77 DUP1 PUSH1 0x1D PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x4 CALLDATASIZE LT PUSH1 0x28 JUMPI PUSH1 0x0 CALLDATALOAD PUSH1 0xE0 SHR DUP1 PUSH4 0x30B67BAA EQ PUSH1 0x2D JUMPI JUMPDEST PUSH1 0x0 DUP1 REVERT JUMPDEST PUSH1 0x0 PUSH1 0x40 MLOAD SWAP1 DUP2 MSTORE PUSH1 0x20 ADD PUSH1 0x40 MLOAD DUP1 SWAP2 SUB SWAP1 RETURN INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 DIFFICULTY 0xB1 0xBE DUP16 SWAP2 0xD3 0xF6 0xC7 GAS 0x4A 0xE4 0x5D ADDMOD RETURNDATACOPY MULMOD GASPRICE 0xCF PUSH23 0xC45E3132A7026338770443D1985D64736F6C6343000804 STOP CALLER ",
-      "sourceMap": "80:120:2:-:0;;;;;;;;;;;;;;;;;;;"
+      "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x77 DUP1 PUSH1 0x1D PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x4 CALLDATASIZE LT PUSH1 0x28 JUMPI PUSH1 0x0 CALLDATALOAD PUSH1 0xE0 SHR DUP1 PUSH4 0x30B67BAA EQ PUSH1 0x2D JUMPI JUMPDEST PUSH1 0x0 DUP1 REVERT JUMPDEST PUSH1 0x1 PUSH1 0x40 MLOAD SWAP1 DUP2 MSTORE PUSH1 0x20 ADD PUSH1 0x40 MLOAD DUP1 SWAP2 SUB SWAP1 RETURN INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 LOG0 SELFDESTRUCT 0xB5 EXP MSTORE 0xB6 DUP4 ORIGIN SWAP9 0xCC SLOAD BLOCKHASH DIFFICULTY DUP1 0xB9 SWAP8 0xBA GT 0x23 PUSH24 0x1E8659D6C2D440F259B28A364736F6C6343000804003300 ",
+      "sourceMap": "80:119:1:-:0;;;;;;;;;;;;;;;;;;;"
     },
     "deployedBytecode": {
       "generatedSources": [
@@ -146,8 +146,8 @@
       ],
       "immutableReferences": {},
       "linkReferences": {},
-      "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x4 CALLDATASIZE LT PUSH1 0x28 JUMPI PUSH1 0x0 CALLDATALOAD PUSH1 0xE0 SHR DUP1 PUSH4 0x30B67BAA EQ PUSH1 0x2D JUMPI JUMPDEST PUSH1 0x0 DUP1 REVERT JUMPDEST PUSH1 0x0 PUSH1 0x40 MLOAD SWAP1 DUP2 MSTORE PUSH1 0x20 ADD PUSH1 0x40 MLOAD DUP1 SWAP2 SUB SWAP1 RETURN INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 DIFFICULTY 0xB1 0xBE DUP16 SWAP2 0xD3 0xF6 0xC7 GAS 0x4A 0xE4 0x5D ADDMOD RETURNDATACOPY MULMOD GASPRICE 0xCF PUSH23 0xC45E3132A7026338770443D1985D64736F6C6343000804 STOP CALLER ",
-      "sourceMap": "80:120:2:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;115:83;164:7;115:83;;160:25:3;;;148:2;133:18;115:83:2;;;;;;"
+      "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x4 CALLDATASIZE LT PUSH1 0x28 JUMPI PUSH1 0x0 CALLDATALOAD PUSH1 0xE0 SHR DUP1 PUSH4 0x30B67BAA EQ PUSH1 0x2D JUMPI JUMPDEST PUSH1 0x0 DUP1 REVERT JUMPDEST PUSH1 0x1 PUSH1 0x40 MLOAD SWAP1 DUP2 MSTORE PUSH1 0x20 ADD PUSH1 0x40 MLOAD DUP1 SWAP2 SUB SWAP1 RETURN INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 LOG0 SELFDESTRUCT 0xB5 EXP MSTORE 0xB6 DUP4 ORIGIN SWAP9 0xCC SLOAD BLOCKHASH DIFFICULTY DUP1 0xB9 SWAP8 0xBA GT 0x23 PUSH24 0x1E8659D6C2D440F259B28A364736F6C6343000804003300 ",
+      "sourceMap": "80:119:1:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;114:83;189:1;114:83;;160:25:3;;;148:2;133:18;114:83:1;;;;;;"
     },
     "gasEstimates": {
       "creation": {
@@ -163,7 +163,7 @@
       "world()": "30b67baa"
     }
   },
-  "metadata": "{\"compiler\":{\"version\":\"0.8.4+commit.c7e474f2\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"world\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"pure\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/HelloWorld.sol\":\"HelloWorld\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\",\"useLiteralContent\":true},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"contracts/Hello.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\npragma solidity ^0.8.0;\\n\\ninterface Hello {\\n    function world() external view returns (uint256);\\n}\\n\",\"keccak256\":\"0x09d17649fac383c096bb7dc1bbe533cef381c132573be047658cdd378ea8c2b5\",\"license\":\"MIT\"},\"contracts/HelloWorld.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\npragma solidity ^0.8.0;\\n\\nimport \\\"./Hello.sol\\\";\\n\\ncontract HelloWorld is Hello {\\n    function world() external pure override returns (uint256) {\\n        return 0;\\n    }\\n}\\n\",\"keccak256\":\"0x269ce44fe270b3c6daa0b7ad130fc625f54d6a699e48284c46248ce3ee604411\",\"license\":\"MIT\"}},\"version\":1}",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.4+commit.c7e474f2\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"world\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"pure\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/HelloMary.sol\":\"HelloMary\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\",\"useLiteralContent\":true},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"contracts/Hello.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\npragma solidity ^0.8.0;\\n\\ninterface Hello {\\n    function world() external view returns (uint256);\\n}\\n\",\"keccak256\":\"0x09d17649fac383c096bb7dc1bbe533cef381c132573be047658cdd378ea8c2b5\",\"license\":\"MIT\"},\"contracts/HelloMary.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\npragma solidity ^0.8.0;\\n\\nimport \\\"./Hello.sol\\\";\\n\\ncontract HelloMary is Hello {\\n    function world() external pure override returns (uint256) {\\n        return 1;\\n    }\\n}\",\"keccak256\":\"0x1a1ef14f5c8bdddfa4ea1c7ad72e6d14d599bbbc03d063d544bb22729c6583d4\",\"license\":\"MIT\"}},\"version\":1}",
   "storageLayout": {
     "storage": [],
     "types": null
