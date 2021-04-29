@@ -1,0 +1,24 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "HelloWorld",
+  "sourceName": "contracts/HelloWorld.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "world",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x6080604052348015600f57600080fd5b50607780601d6000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c806330b67baa14602d575b600080fd5b600060405190815260200160405180910390f3fea264697066735822122044b1be8f91d3f6c75a4ae45d083e093acf76c45e3132a7026338770443d1985d64736f6c63430008040033",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c806330b67baa14602d575b600080fd5b600060405190815260200160405180910390f3fea264697066735822122044b1be8f91d3f6c75a4ae45d083e093acf76c45e3132a7026338770443d1985d64736f6c63430008040033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}
